@@ -3,6 +3,8 @@ import { IoSearchOutline } from "react-icons/io5";
 import { BsThreeDots } from "react-icons/bs";
 import { IoIosArrowDown } from "react-icons/io";
 import { FiArrowDown } from "react-icons/fi";
+import Logo from "/src/assets/logo.png"
+import ETH from "/src/assets/ETH.png"
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
       <nav className='flex justify-between items-center py-1 px-3'>
         <div className='flex  items-center gap-10 w-1/3'>
           <div className="logo w-1/6 ">
-            <img src="/src/assets/logo.png" alt="" />
+            <img src={Logo} alt="" />
           </div>
           <ul className='flex justify-center items-center gap-6 font-bold text-lg text-[#ffffffa6]'>
             <li>Trade</li>
@@ -51,7 +53,7 @@ function App() {
             </div>
             <div className="right w-1/4">
               <div className='border border-[#ffffffa6] cursor-pointer w-full flex rounded-full justify-center items-center gap-1 px-4 py-1'>
-                <img src="src/assets/ETH.png" alt="" className='h-full w-1/2 pl-1' />
+                <img src={ETH} alt="" className='h-full w-1/2 pl-1' />
                 <span className='font-semibold text-lg'>
                   ETH
                   </span>
