@@ -65,7 +65,7 @@ function App() {
               <h3 className='font-semibold text-lg text-[#ffffffa6]'>Sell</h3>
               <input type="text" className='outline-none border-none w-full placeholder:text-[#ffffffa6] font-semibold text-3xl ' placeholder='0' />
             </div>
-            <div className="right w-2/3">
+            <div className="right flex flex-col justify-end items-end w-2/3">
              
               <button className='bg-[#508dc7] py-1  font-bold tracking-wide px-4 rounded-full flex items-center justify-center gap-2 text-lg'>Select token
 
